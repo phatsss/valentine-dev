@@ -1,0 +1,42 @@
+
+    [
+  { "country_code": "AF", "country": "Afghanistan", "flag": "🇦🇫", "title": "زه تا سره مینه لرم", "subTitle": "Za ta sara meena laram" },
+  { "country_code": "AL", "country": "Albania", "flag": "🇦🇱", "title": "Të dua", "subTitle": "Tuh doo-ah" },
+  { "country_code": "DZ", "country": "Algeria", "flag": "🇩🇿", "title": "أنا أحبك", "subTitle": "Ana uhibbuka" },
+  { "country_code": "AD", "country": "Andorra", "flag": "🇦🇩", "title": "T'estimo", "subTitle": "Tess-tee-mo" },
+  { "country_code": "AO", "country": "Angola", "flag": "🇦🇴", "title": "Eu te amo", "subTitle": "Eyoo chee ah-mo" },
+  { "country_code": "AR", "country": "Argentina", "flag": "🇦🇷", "title": "Te amo", "subTitle": "Teh ah-moh" },
+  { "country_code": "AM", "country": "Armenia", "flag": "🇦🇲", "title": "Ես սիրում եմ քեզ", "subTitle": "Yes sirum yem k’ez" },
+  { "country_code": "AU", "country": "Australia", "flag": "🇦🇺", "title": "I love you", "subTitle": "I love you" },
+  { "country_code": "AT", "country": "Austria", "flag": "🇦🇹", "title": "Ich liebe dich", "subTitle": "Ish lee-buh deekh" },
+  { "country_code": "AZ", "country": "Azerbaijan", "flag": "🇦🇿", "title": "Mən səni sevirəm", "subTitle": "Men seni sevirəm" },
+  
+  { "country_code": "BD", "country": "Bangladesh", "flag": "🇧🇩", "title": "আমি তোমাকে ভালোবাসি", "subTitle": "Ami tomake bhalobashi" },
+  { "country_code": "BE", "country": "Belgium", "flag": "🇧🇪", "title": "Ik hou van jou", "subTitle": "Ick how fahn yow" },
+  { "country_code": "BR", "country": "Brazil", "flag": "🇧🇷", "title": "Eu te amo", "subTitle": "Eyoo chee ah-mo" },
+  { "country_code": "CA", "country": "Canada", "flag": "🇨🇦", "title": "I love you", "subTitle": "I love you" },
+  { "country_code": "CN", "country": "China", "flag": "🇨🇳", "title": "我爱你", "subTitle": "Wǒ ài nǐ" },
+  { "country_code": "DK", "country": "Denmark", "flag": "🇩🇰", "title": "Jeg elsker dig", "subTitle": "Yai el-sker dai" },
+  { "country_code": "EG", "country": "Egypt", "flag": "🇪🇬", "title": "أنا بحبك", "subTitle": "Ana bahebak" },
+  { "country_code": "FI", "country": "Finland", "flag": "🇫🇮", "title": "Minä rakastan sinua", "subTitle": "Mee-nah rah-kahs-tahn see-noo-ah" },
+  { "country_code": "FR", "country": "France", "flag": "🇫🇷", "title": "Je t'aime", "subTitle": "Zhuh tem" },
+  { "country_code": "DE", "country": "Germany", "flag": "🇩🇪", "title": "Ich liebe dich", "subTitle": "Ish lee-buh deekh" },
+  
+  { "country_code": "IN", "country": "India", "flag": "🇮🇳", "title": "मैं तुमसे प्यार करता हूँ", "subTitle": "Main tumse pyaar karta hoon" },
+  { "country_code": "ID", "country": "Indonesia", "flag": "🇮🇩", "title": "Aku cinta kamu", "subTitle": "Akoo cheen-tah kahmoo" },
+  { "country_code": "IR", "country": "Iran", "flag": "🇮🇷", "title": "من تو را دوست دارم", "subTitle": "Man to ra doost daram" },
+  { "country_code": "IT", "country": "Italy", "flag": "🇮🇹", "title": "Ti amo", "subTitle": "Tee ah-moh" },
+  { "country_code": "JP", "country": "Japan", "flag": "🇯🇵", "title": "愛してる", "subTitle": "Aishiteru" },
+  { "country_code": "KR", "country": "South Korea", "flag": "🇰🇷", "title": "사랑해", "subTitle": "Saranghae" },
+  { "country_code": "MY", "country": "Malaysia", "flag": "🇲🇾", "title": "Saya cinta padamu", "subTitle": "Sah-yah cheen-tah pah-dah-moo" },
+  { "country_code": "MX", "country": "Mexico", "flag": "🇲🇽", "title": "Te amo", "subTitle": "Teh ah-moh" },
+  { "country_code": "PH", "country": "Philippines", "flag": "🇵🇭", "title": "Mahal kita", "subTitle": "Ma-hal kee-ta" },
+  { "country_code": "RU", "country": "Russia", "flag": "🇷🇺", "title": "Я тебя люблю", "subTitle": "Ya tebyá lyublyú" },
+
+  { "country_code": "ES", "country": "Spain", "flag": "🇪🇸", "title": "Te amo", "subTitle": "Teh ah-moh" },
+  { "country_code": "TH", "country": "Thailand", "flag": "🇹🇭", "title": "ฉันรักคุณ", "subTitle": "Chan rak khun" },
+  { "country_code": "TR", "country": "Turkey", "flag": "🇹🇷", "title": "Seni seviyorum", "subTitle": "Seh-nee seh-vee-yo-room" },
+  { "country_code": "GB", "country": "United Kingdom", "flag": "🇬🇧", "title": "I love you", "subTitle": "I love you" },
+  { "country_code": "US", "country": "United States", "flag": "🇺🇸", "title": "I love you", "subTitle": "I love you" },
+  { "country_code": "VN", "country": "Vietnam", "flag": "🇻🇳", "title": "Anh yêu em", "subTitle": "Anh yoo em" }
+]
