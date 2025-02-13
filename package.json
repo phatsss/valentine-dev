@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://phatsss.github.io/valentine-dev/",
+  "homepage": "https://phatsss.github.io/valentine-dev/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -34,6 +34,7 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-icons": "^5.4.0",
+    "react-player": "^2.16.0",
     "react-router-dom": "6.23.0",
     "tailwind-variants": "0.1.20",
     "tailwindcss": "3.4.16"

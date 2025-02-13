@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import loveWordArray from "../assets/love_worldwide.json";
 
 import DefaultLayout from "@/layouts/default";
-import { MusicPlayer } from "@/components/MusicPlayer";
+// import { MusicPlayer } from "@/components/MusicPlayer";
 import FlagSlide from "@/components/FlagSlide";
 import TextSlide from "@/components/TextSlide";
 import DateTimeComponent from "@/components/DateTimeComponent";
@@ -12,6 +12,7 @@ import ValentineConfettiButton from "@/components/ValentineConfettiButton";
 import TimeCounter from "@/components/TimeCounter";
 import TotalTimeCounter from "@/components/TotalTimeCounter";
 import FromDate from "@/components/FromDate";
+import { StreamMusicPlayer } from "@/components/StreamMusicPlayer";
 
 export default function IndexPage() {
   const [wordIndex, setWordIndex] = useState(0);
@@ -46,7 +47,7 @@ export default function IndexPage() {
 
           {/* Card 4 (Main Image) */}
           <Card className="bg-gradient-to-r from-rose-400 to-red-500 sm:col-span-2 md:col-span-2 row-span-2 rounded-3xl flex justify-center items-center p-6">
-            <MusicPlayer />
+            <StreamMusicPlayer />
           </Card>
 
           {/* Card 5 */}

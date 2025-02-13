@@ -2,7 +2,19 @@ import confetti from "canvas-confetti";
 
 const ValentineConfettiButton = () => {
   // Valentine's Day Emojis
-  const valentineEmojis = ["❤️", "💖", "💘", "💕", "🌹", "😍", "💋", "🎈"];
+  const valentineEmojis = [
+    "❤️",
+    "💖",
+    "💘",
+    "💕",
+    "🩵",
+    "💛",
+    "💜",
+    "🌹",
+    "😍",
+    "🎈",
+    "🌻",
+  ];
 
   const fireConfetti = () => {
     const emoji =
