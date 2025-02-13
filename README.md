@@ -1,50 +1,77 @@
-# Vite & HeroUI Template
+# 🎵 **Bento Grid Design 💖**
 
-This is a template for creating applications using Vite and HeroUI (v2).
+🚀 **[🌟 Live Demo](https://phatsss.github.io/valentine-dev/)**
 
-[Try it on CodeSandbox](https://githubbox.com/frontio-ai/vite-template)
+---
 
-## Technologies Used
+## 📦 **Installation**
 
-- [Vite](https://vitejs.dev/guide/)
-- [HeroUI](https://heroui.com)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
+Clone the repo and install dependencies:
 
-## How to Use
-
-To clone the project, run the following command:
-
-```bash
-git clone https://github.com/frontio-ai/vite-template.git
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
+\`\`\`sh
+git clone https://github.com/phatsss/valentine-dev.git
+cd valentine-dev
 npm install
-```
+\`\`\`
 
-### Run the development server
+or using Yarn:
 
-```bash
+\`\`\`sh
+yarn install
+\`\`\`
+
+---
+
+## 🌈 **How to Run**
+
+Start the project locally with:
+
+\`\`\`sh
 npm run dev
-```
+\`\`\`
 
-### Setup pnpm (optional)
+_Open your browser and navigate to **\`http://localhost:5173/\`** (For Vite projects)._
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+---
 
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
+## 🎨 **Customization**
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+Want to customize the confetti animation? Change the **Valentine emojis & colors** inside \`ValentineConfetti.tsx\`:
 
-## License
+\`\`\`tsx
+const valentineEmojis = ["❤️", "💖", "💘", "💕", "💞", "💓", "💗", "🌹"];
+const confettiColors = ["#FF69B4", "#FF1493", "#DC143C"]; // Dark Pink-Red tones
+\`\`\`
+Make it **uniquely yours!** 💕 🎨
 
-Licensed under the [MIT license](https://github.com/frontio-ai/vite-template/blob/main/LICENSE).
+---
+
+## 🛠 **Tech Stack**
+
+**Built with love using:**
+
+- ⚛ **React + TypeScript** – For a smooth developer experience
+- 🎨 **Tailwind CSS** – For beautiful styles and responsive UI
+- 🎉 **canvas-confetti** – For romantic falling heart animations
+- ☁️ **ReactPlayer** – Playing tracks from YouTube & beyond
+
+---
+
+## 🥂 **Contributors & Credits**
+
+✨ **Created with 💖 by:**
+
+- @phatsss _(Uncle ✨)_
+- Inspired by **valentine vibes & love-filled playlists** 🎶💘
+
+Fork it, tweak it, **spread the love**! 🚀
+
+---
+
+## 📜 **License**
+
+🔓 **MIT License** – Free to use, modify, and spread love!
+
+---
+
+✍️ Crafted with love & pixels. 💕🚀
