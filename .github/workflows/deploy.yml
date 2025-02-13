@@ -13,8 +13,17 @@ jobs:
       - uses: actions/setup-node@v4.2.0
         with:
           node-version: 20.16.0
-      - run: npm ci
-      - run: npm run build
+      - name: Install dependencies
+        run: |
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+            npm i
+          fi
+      - name: Build
+        run: npm run build
       - name: Deploy
         run: |
           git config --global user.name $user_name
