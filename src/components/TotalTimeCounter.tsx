@@ -77,7 +77,9 @@ const TotalTimeCounter: React.FC = () => {
     <>
       <div className=" text-center ">
         <p>
-          <h1 className="text-6xl font-bold ">{timeData.years} Years</h1>
+          <h1 className="xl:text-6xl md:text-4xl text-6xl font-bold ">
+            {timeData.years} Years
+          </h1>
           <p className="text-sm  mt-1">{`${timeData.months} months | ${timeData.days} days`}</p>
         </p>
       </div>

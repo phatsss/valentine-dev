@@ -30,7 +30,7 @@ export const MusicPlayer: FC<MusicPlayerProps> = ({
     <Card
       isBlurred
       className={clsx(
-        "border-none bg-background/60 rounded-3xl dark:bg-default-100/50",
+        "border-none bg-background/60 rounded-3xl dark:bg-default-100/50 w-full",
         className
       )}
       shadow="sm"

@@ -61,7 +61,7 @@ const TextSlide: React.FC<Props> = ({ wordIndex, loveWord }) => {
       <motion.h1
         key={`title-${wordIndex}`}
         animate={{ opacity: 1, y: 0 }}
-        className="text-6xl font-bold text-center mt-2"
+        className="xl:text-6xl md:text-4xl text-3xl font-bold text-center mt-2"
         exit={{ opacity: 0, y: 10 }}
         initial={{ opacity: 0, y: -10 }}
         transition={{ duration: 0.3 }}
@@ -80,7 +80,7 @@ const TextSlide: React.FC<Props> = ({ wordIndex, loveWord }) => {
       <motion.p
         key={`subTitle-${wordIndex}`}
         animate={{ opacity: 1, y: 0 }}
-        className="text-2xl text-gray-300 text-center italic"
+        className="xl:text-2xl md:text-xl text-gray-300 text-center italic"
         exit={{ opacity: 0, y: 5 }}
         initial={{ opacity: 0, y: -5 }}
         transition={{ duration: 0.5, delay: 0.8 }} // Delayed appearance

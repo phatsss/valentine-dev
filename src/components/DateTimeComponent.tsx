@@ -18,7 +18,7 @@ const DateTimeComponent = () => {
         timeZone: "Asia/Vientiane",
         weekday: "long",
         day: "2-digit",
-        month: "long",
+        month: "2-digit",
         year: "numeric",
       };
 
@@ -35,7 +35,7 @@ const DateTimeComponent = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       {/* Time Display with Gradient */}
-      <h1 className="text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FF705B] to-[#FFB457]">
+      <h1 className="xl:text-6xl md:text-6xl text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FF705B] to-[#FFB457]">
         {time}
       </h1>
 
