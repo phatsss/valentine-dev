@@ -1,37 +1,40 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches:
-      - main # Set a branch name to trigger deployment
+      - main # ✨ Run workflow when pushing to main branch
+
+permissions:
+  contents: write # ✅ Give GitHub Actions permission to write to gh-pages
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.2
-      - uses: actions/setup-node@v4.2.0
+      - name: 🛎️ Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🔧 Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 20.16.0
-      - name: Install dependencies
+          node-version: 20 # ✅ Use the latest stable Node.js version
+
+      - name: 📦 Install dependencies
         run: |
           if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
+            yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
-          npm ci
+            npm ci
           else
-            npm i
+            npm install
           fi
-      - name: Build
+
+      - name: 🔨 Build project
         run: npm run build
-      - name: Deploy
-        run: |
-          git config --global user.name $user_name
-          git config --global user.email $user_email
-          git remote set-url origin https://${github_token}@github.com/${repository}
-          npm run deploy
-        env:
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}
+
+      - name: 🚀 Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # ✅ Deploy to gh-pages branch
+          folder: dist # ✅ Upload the built files from dist/
+          clean: true # ✅ Removes old files from previous deployments
