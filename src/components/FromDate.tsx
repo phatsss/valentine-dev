@@ -8,6 +8,7 @@ const FromDate: React.FC = () => {
         <h1 className="xl:text-6xl md:text-4xl text-6xl font-bold bg-gradient-to-br from-pink-500 to-orange-500 bg-clip-text text-transparent">
           01.09.2018
         </h1>
+        <p className="text-sm text-gray-500 mt-1">{`We start from this date`}</p>
       </div>
     </>
   );
