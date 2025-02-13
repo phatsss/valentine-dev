@@ -6,7 +6,4 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   base: "/valentine-dev/",
-  build: {
-    outDir: "docs", // GitHub Pages may need docs folder
-  },
 });
